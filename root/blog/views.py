@@ -65,3 +65,7 @@ def verify_generated_otp(request):
 def logout_user(request):
     logout(request)
     return redirect('login_user')  
+
+def image_preview(request):
+
+    return render(request,'blog/image_preview.html')

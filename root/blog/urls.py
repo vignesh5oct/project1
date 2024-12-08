@@ -9,5 +9,8 @@ urlpatterns = [
     path('dashboard/',views.dashboard,name='dashboard'),
     path('generated-otp/',views.generated_otp,name='generated_otp'),
     path('verify-generated-otp/',views.verify_generated_otp,name='verify_generated_otp'),
+
+    path('image-preview/',views.image_preview,name='image_preview'),
+
     
 ]
